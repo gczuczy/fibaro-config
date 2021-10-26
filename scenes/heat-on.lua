@@ -7,7 +7,7 @@
 	 type = "device",
 	 property = "state",
 	 operator = "==",
-	 value = true,
+	 value = false,
 	 isTrigger = true
       },
       {
