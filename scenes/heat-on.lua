@@ -21,7 +21,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- dolgozo
@@ -30,7 +30,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- konyha
@@ -39,7 +39,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- FszZuhany
@@ -48,7 +48,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- FszNappali
@@ -57,7 +57,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- EmNappali
@@ -66,7 +66,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- Csoki
@@ -75,7 +75,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- Toki
@@ -84,7 +84,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- Lina 
@@ -93,7 +93,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- EmWC
@@ -102,7 +102,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- Vendeg
@@ -111,7 +111,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- EmFurdo
@@ -120,7 +120,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- EmZuhany
@@ -129,7 +129,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	    {
 	       -- Halo
@@ -138,7 +138,7 @@
 	       operator = "==",
 	       property = "thermostatOperatingState",
 	       type = "device",
-	       value = "Heat"
+	       value = "Heating"
 	    },
 	 }
       }
