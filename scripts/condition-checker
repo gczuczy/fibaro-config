@@ -67,7 +67,11 @@ class FibaroHC3():
                                                      id = deviceid)
         resp = requests.get(url,
                             auth = requests.auth.HTTPBasicAuth(self._user, self._passwd))
-        res = resp.json()
+        try:
+            res = resp.json()
+        except Exception as e:
+            pprint([url, resp.text])
+            raise e
         #pprint(['device', res])
         return res
 
@@ -92,7 +96,11 @@ class FibaroHC3():
         elif 'type' in conditions and conditions['type'] == 'device':
             dev = self.getdevice(conditions['id'])
             prop = conditions['property']
-            devvalue = dev['properties'][prop]
+            try:
+                devvalue = dev['properties'][prop]
+            except Exception as e:
+                pprint([conditions, dev['properties']])
+                raise e
             op = conditions['operator']
 
             if op == '==':
