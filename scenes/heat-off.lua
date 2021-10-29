@@ -7,12 +7,12 @@
 	 type = "device",
 	 property = "state",
 	 operator = "==",
-	 value = false,
+	 value = true,
 	 isTrigger = true
       },
       {
 	 --serfozo
-	 id = 23,
+	 id = 286,
 	 isTrigger = true,
 	 operator = "==",
 	 property = "thermostatOperatingState",
@@ -21,7 +21,7 @@
       },
       {
 	 -- dolgozo
-	 id = 57,
+	 id = 297,
 	 isTrigger = true,
 	 operator = "==",
 	 property = "thermostatOperatingState",
@@ -30,7 +30,7 @@
       },
       {
 	 -- konyha
-	 id = 68,
+	 id = 319,
 	 isTrigger = true,
 	 operator = "==",
 	 property = "thermostatOperatingState",
@@ -39,7 +39,7 @@
       },
       {
 	 -- FszZuhany
-	 id = 90,
+	 id = 308,
 	 isTrigger = true,
 	 operator = "==",
 	 property = "thermostatOperatingState",
@@ -48,7 +48,7 @@
       },
       {
 	 -- FszNappali
-	 id = 101,
+	 id = 330,
 	 isTrigger = true,
 	 operator = "==",
 	 property = "thermostatOperatingState",
